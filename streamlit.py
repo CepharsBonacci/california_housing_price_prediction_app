@@ -37,3 +37,4 @@ if response.status_code == 200:
     st.table(predicted_values)
 else:
     st.write("Error predicting values. Please try again later.")
+    
